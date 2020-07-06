@@ -94,3 +94,87 @@ header div a:hover {
 
 }
 
+#cursos h1 {
+    text-align: center;
+    padding: 32px;
+    color: white;
+}
+#cursos h1:hover {
+    color: var(--color-purple);
+    transition: 500ms;
+}
+
+.cards {
+    
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin-top: 50px;
+    
+}
+
+.card {
+    background-color: rgb(92, 92, 92);
+    border-radius: 20px;
+    
+    
+}
+
+.image-card {
+    display: flex;
+    background-color: #252424;
+    opacity: 0.8;
+    justify-content: center;
+    
+    
+}
+
+.image-card img {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.card-title,
+.card-info {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration: double;
+    color: white;
+    text-align: center;
+    
+    
+}
+
+.card-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 18px;
+    color: white;
+}
+
+.card-price {
+    background-color: rgb(185, 185, 185);
+    filter: brightness(90%);
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+    
+    
+    
+
+
+
+
+
