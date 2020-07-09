@@ -88,3 +88,44 @@ footer p {
     margin-top: 23px;
 }    
 
+.mais-acessadas {
+    margin-left: 230px;
+    margin-right: 230px;
+    max-width: 640px;
+}
+
+.mais-acessadas h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111111;
+}
+
+.mais-acessadas .receitas .receita img {
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+.mais-acessadas .receitas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.mais-acessadas .receitas .receita h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 21px;
+    color: #111111;
+}
+
+.mais-acessadas .receitas .receita p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #777777;
+    line-height: 16px;
+}
+
