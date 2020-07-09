@@ -89,32 +89,34 @@ footer p {
     padding: 23px;
 }    
 
-.mais-acessadas {
+.receitas{
+    margin-top: 50px;
     margin-left: 230px;
     margin-right: 230px;
     max-width: 640px;
 }
 
 .mais-acessadas h2 {
-    margin-top: 50px;
+    margin-top: 52px;
+    margin-left: 230px;
     margin-bottom: 20px;
     font-size: 24px;
     line-height: 28px;
     color: #111111;
 }
 
-.mais-acessadas .receitas .receita img {
+.receitas .receita img {
     width: 300px;
     height: 140px;
     border-radius: 15px;
 }
-.mais-acessadas .receitas {
+.receitas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
 
-.mais-acessadas .receitas .receita h3 {
+.receitas .receita h3 {
     margin-top: 20px;
     margin-bottom: 5px;
     font-size: 18px;
@@ -123,7 +125,7 @@ footer p {
     color: #111111;
 }
 
-.mais-acessadas .receitas .receita p {
+.receitas .receita p {
     margin-bottom: 30px;
     font-size: 14px;
     color: #777777;
@@ -159,3 +161,69 @@ footer p {
     color: #111111;
 }
 
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 180vh;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+.modal {
+    position: relative;
+    background-color: white;
+    width: 660px;
+    height: 413px;
+    margin-top: 355px;
+    margin-left: 360px;
+    border-radius: 16px;
+
+    
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal .close-modal {
+  position: absolute;
+  margin-top: 364px;
+  margin-left: 284px;
+  color: #999999;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+}
+
+.modal-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.modal-content img {
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 200px;
+}
+
+.modal-content h3 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #111111;
+    margin-bottom: 5px;
+}
+
+.modal-content p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #777777;
+}
