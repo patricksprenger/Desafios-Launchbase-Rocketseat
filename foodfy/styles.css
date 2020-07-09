@@ -75,17 +75,18 @@ footer{
     background: #EEEEEE;
     width: 100%;
     height: 62px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
-    
+    margin-top: 50px;
     }
 
 footer p {
     text-align: center;
     font-size: 14px;
     line-height: 16px;
-    margin-top: 23px;
+    color: #999999;
+    padding: 23px;
 }    
 
 .mais-acessadas {
@@ -127,5 +128,34 @@ footer p {
     font-size: 14px;
     color: #777777;
     line-height: 16px;
+}
+
+.about {
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about h1 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #444444;
+    text-align: justify;
+}    
+
+.about h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
 }
 
